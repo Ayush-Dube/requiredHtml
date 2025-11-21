@@ -26,5 +26,23 @@ only the required html we need.
     <html lang="en"> </html>
     ```
     - All other elements of your webpage will go between these two tags.
-- #### 
-- #### 
+- #### head
+
+- #### body    
+    -  In this step, you will add the `<body>` element. This is where all the visible content of your web page goes, such as headings, paragraphs, images, links, and more. The `<body>` element should be placed after the `<head>` element, but still inside the`<html>`element.
+
+    - Let's add a main heading to our page to make it visible in the browser. We'll use the `<h1>` tag, which stands for "Heading 1".
+
+    - In your index.html file, add a `<body>` section. Inside the `<body>`, add an `<h1>` element with the text "Hello, World!".
+
+```html
+    <!-- declaration -->
+    <!DOCTYPE html>
+    <!-- root -->
+    <html>
+        <!-- head -->
+         <head></head>
+        <!-- body -->
+         <body></body>
+    </html>
+```
