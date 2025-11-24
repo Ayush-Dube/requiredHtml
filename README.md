@@ -197,3 +197,77 @@ Add a border attribute to make the table structure visible.
 ```
 
 </details>
+
+### more
+
+- Double Tags (Paired Tags):
+
+    - Have an opening tag `<tag>` and a closing tag `</tag>`
+    - Content is placed between the opening and closing tags
+    - Examples: `<h1>, <p>, <strong>, <div>`
+
+- Single Tags (Self-Closing Tags):
+
+    - Do not have a separate closing tag
+    - Close themselves within the tag
+    - Examples: `<img>, <br>, <input>`
+
+### lab8
+
+- comments
+    - Start with `<!--`   
+      End with `-->`
+
+      ```
+        <!-- 
+        This is a multi-line comment 
+        demonstrating how to write 
+        comments that span multiple lines.
+        
+        You can include:
+        - Detailed explanations
+        - TODO notes
+        - Code documentation
+        - Temporary code blocks
+        -->
+      ```
+
+- specail
+
+```
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>HTML Character Entities</title>
+  </head>
+  <body>
+    <h1>Common HTML Character Entities</h1>
+
+    <p>Less than symbol: &lt; (represents <)</p>
+    <p>Greater than symbol: &gt; (represents >)</p>
+    <p>Ampersand symbol: &amp; (represents &)</p>
+    <p>Quotation mark: &quot; (represents ")</p>
+    <p>Copyright symbol: &copy;</p>
+
+    <h2>Special Symbols Examples</h2>
+    <p>Currency symbols: &euro; (Euro), &pound; (Pound), &yen; (Yen)</p>
+    <p>Mathematical symbols: &times; (Multiplication), &divide; (Division)</p>
+    <p>Trademark: &trade;</p>
+
+    <h3>Spacing and Invisible Characters</h3>
+    <p>Non-breaking space: First&nbsp;Word Second</p>
+  </body>
+</html>
+
+
+
+
+&lt; - Less than
+&gt; - Greater than
+&amp; - Ampersand
+&quot; - Quotation mark
+&copy; - Copyright symbol
+
+```
+
